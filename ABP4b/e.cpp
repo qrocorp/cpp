@@ -3,7 +3,11 @@ using namespace std;
 
 int main()
 {
-    int i;
-    cin >> i;
-    cout << i * 2 << endl;
+    int a = 10;
+    int b;
+    b = a;
+    a = 5;
+
+    cout << a << '\n';
+    cout << b << '\n';
 }
