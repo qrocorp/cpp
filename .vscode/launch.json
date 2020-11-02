@@ -8,7 +8,7 @@
             "name": "(lldb) 起動",
             "type": "cppdbg",
             "request": "launch",
-            "program": "プログラム名を入力してください (例: ${workspaceFolder}/a.out)",
+            "program": "${workspaceFolder}/a.out", //"プログラム名を入力してください (例: ${workspaceFolder}/a.out)",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
