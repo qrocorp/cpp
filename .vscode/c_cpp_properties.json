@@ -3,7 +3,9 @@
     "name": "Mac",
     "includePath": [
       "${workspaceFolder}/**",
-      "/usr/local/Cellar/gcc/10.2.0/include"
+      "/usr/local/Cellar/gcc/10.2.0/include/**",
+      "/usr/local/include/**",
+      "/usr/local/Cellar/gcc/10.2.0/include/c++/10.2.0/x86_64-apple-darwin19/**"
     ],
     "defines": [],
     "macFrameworkPath": [
@@ -14,7 +16,7 @@
     "compilerPath": "/usr/local/Cellar/gcc/10.2.0/bin/g++-10",
     "cStandard": "c11",
     "cppStandard": "c++14",
-    "intelliSenseMode": "clang-x64"
+    "intelliSenseMode": "gcc-x64"
   }],
   "version": 4
 }
