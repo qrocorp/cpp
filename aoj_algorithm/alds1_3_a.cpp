@@ -6,13 +6,9 @@ int main()
     int a, b;
     stack<int> c;
     string s;
-    while (true)
+    while (cin >> s)
     {
-        s = cin.get();
-        cout << s << endl;
-        if (atoi(s.c_str()) == istream::traits_type::eof())
-            break;
-        if (s == "+")
+        if (s[0] == '+')
         {
             a = c.top();
             c.pop();
@@ -20,15 +16,15 @@ int main()
             c.pop();
             c.push(a + b);
         }
-        else if (s == "-")
+        else if (s[0] == '-')
         {
-            a = c.top();
-            c.pop();
             b = c.top();
+            c.pop();
+            a = c.top();
             c.pop();
             c.push(a - b);
         }
-        else if (s == "*")
+        else if (s[0] == '*')
         {
             a = c.top();
             c.pop();
