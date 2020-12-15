@@ -51,7 +51,6 @@ int main()
 
     cout << answer << endl;
 }
-/*
     if (n == 2)
     {
         long long count = 0;
